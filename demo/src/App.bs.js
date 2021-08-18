@@ -12,11 +12,7 @@ var box = Css.css("\n  background: rgba(0,0,0,0.1);\n  border: solid 2px #000;\n
 
 function App(Props) {
   return React.createElement(Ancestor.Default.Grid.make, {
-              spacing: [
-                Ancestor.Default.xxs(2),
-                Ancestor.Default.md(6),
-                Ancestor.Default.lg(12)
-              ],
+              spacing: [Ancestor.Default.xxs(4)],
               children: null
             }, React.createElement(Ancestor.Default.Box.make, {
                   columns: [

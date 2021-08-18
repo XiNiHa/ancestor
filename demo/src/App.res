@@ -20,7 +20,7 @@ let box = css(`
 
 @react.component
 let make = () => {
-  <Grid spacing=[xxs(2), md(6), lg(12)]>
+  <Grid spacing=[xxs(4)]>
     <Box columns=[xxs(#12), md(#4)]> <div className=box> {"4 columns"->s} </div> </Box>
     <Box columns=[xxs(#12), md(#4)]> <div className=box> {"4 columns"->s} </div> </Box>
     <Box columns=[xxs(#12), md(#4)]> <div className=box> {"4 columns"->s} </div> </Box>
